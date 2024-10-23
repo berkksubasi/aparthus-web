@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F4F6;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+section#hero {
+  background-image: url('/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+section#features {
+  background-image: url('/features-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+section#about {
+  background-image: url('/about-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+section#team {
+  background-image: url('/team-bg.jpg');
+}
