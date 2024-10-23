@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const TeamSection = () => {
@@ -19,7 +20,7 @@ const TeamSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 animate-fade-in-up w-full max-w-6xl">
         {/* Team Member 1 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
-          <img
+          <Image
             src="images/team1.jpg"
             alt="Team Member"
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"
@@ -30,7 +31,7 @@ const TeamSection = () => {
             Şeyda, platformumuzun vizyoner lideridir. 10 yılı aşkın deneyimiyle site yönetim çözümlerinin öncüsüdür.
           </p>
           {/* Subtext */}
-          <p className="text-gray-500 text-sm">"Yaratıcı fikirlerimizle geleceğin çözümlerini sunuyoruz."</p>
+          <p className="text-gray-500 text-sm">&quot;Yaratıcı fikirlerimizle geleceğin çözümlerini sunuyoruz.&quot;</p>
 
           {/* Social Media Links */}
           <div className="flex justify-center space-x-4 mt-4">
@@ -48,7 +49,7 @@ const TeamSection = () => {
 
         {/* Team Member 2 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
-          <img
+          <Image
             src="images/team2.jpg"
             alt="Team Member"
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"
@@ -77,7 +78,7 @@ const TeamSection = () => {
 
         {/* Team Member 3 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
-          <img
+          <Image
             src="images/team3.jpg"
             alt="Team Member"
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"

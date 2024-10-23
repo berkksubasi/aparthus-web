@@ -1,4 +1,4 @@
-import { FaAddressCard, FaCalculator, FaCalendar, FaClipboard, FaCreditCard, FaEnvelope, FaMoneyBill, FaShieldAlt, FaTasks, FaToolbox, FaTruck, FaWater } from "react-icons/fa";
+import { FaAddressCard, FaCalculator, FaCalendar, FaClipboard, FaCreditCard, FaEnvelope, FaMoneyBill, FaShieldAlt, FaTasks, FaToolbox, FaTruck } from "react-icons/fa";
 import { FaMoneyBill1 } from "react-icons/fa6";
 
 const FeaturesSection = () => {
