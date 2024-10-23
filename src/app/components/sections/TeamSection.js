@@ -14,15 +14,17 @@ const TeamSection = () => {
         Ekibimiz
       </h2>
       <p className="text-lg sm:text-xl text-white text-center mb-6 sm:mb-10 max-w-3xl mx-auto">
-        Yunis Solutions'ı ileriye taşıyan yetenekli ekip üyelerimizle tanışın.
+        Yunis Solutions&apos;ı ileriye taşıyan yetenekli ekip üyelerimizle tanışın.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 animate-fade-in-up w-full max-w-6xl">
         {/* Team Member 1 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
           <Image
-            src="images/team1.jpg"
+            src="/images/team1.jpg"
             alt="Team Member"
+            width={128}
+            height={128}
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"
           />
           <h3 className="text-xl sm:text-2xl font-semibold mb-2">Şeyda Birgin</h3>
@@ -50,8 +52,10 @@ const TeamSection = () => {
         {/* Team Member 2 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
           <Image
-            src="images/team2.jpg"
+            src="/images/team2.jpg"
             alt="Team Member"
+            width={128}
+            height={128}
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"
           />
           <h3 className="text-xl sm:text-2xl font-semibold mb-2">Mehmet Fikret</h3>
@@ -60,7 +64,7 @@ const TeamSection = () => {
             Mehmet, platformumuzun kurucu ortağıdır ve proje geliştirme konusunda uzmanlaşmıştır.
           </p>
           {/* Subtext */}
-          <p className="text-gray-500 text-sm">"Geleceği şekillendiren projeler üretiyoruz."</p>
+          <p className="text-gray-500 text-sm">&quot;Geleceği şekillendiren projeler üretiyoruz.&quot;</p>
 
           {/* Social Media Links */}
           <div className="flex justify-center space-x-4 mt-4">
@@ -79,8 +83,10 @@ const TeamSection = () => {
         {/* Team Member 3 */}
         <div className="team-member bg-white shadow-lg rounded-xl p-6 sm:p-8 text-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
           <Image
-            src="images/team3.jpg"
+            src="/images/team3.jpg"
             alt="Team Member"
+            width={128}
+            height={128}
             className="rounded-full w-24 sm:w-32 h-24 sm:h-32 mx-auto mb-4 transform hover:scale-110 transition-transform duration-300"
           />
           <h3 className="text-xl sm:text-2xl font-semibold mb-2">Berk Subaşı</h3>
@@ -89,7 +95,7 @@ const TeamSection = () => {
             Berk, ölçeklenebilir yazılım çözümleri geliştirme konusunda uzmandır ve teknolojiye olan tutkusu ile bilinir.
           </p>
           {/* Subtext */}
-          <p className="text-gray-500 text-sm">"Güçlü ve sağlam yazılım çözümleri geliştiriyoruz."</p>
+          <p className="text-gray-500 text-sm">&quot;Güçlü ve sağlam yazılım çözümleri geliştiriyoruz.&quot;</p>
 
           {/* Social Media Links */}
           <div className="flex justify-center space-x-4 mt-4">
