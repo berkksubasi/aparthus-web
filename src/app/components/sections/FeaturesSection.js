@@ -11,10 +11,10 @@ const FeaturesSection = () => {
       }}
     >
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 text-center">
-        Yunis’in Sunduğu Çözümler
+        Aparthus’in Sunduğu Çözümler
       </h2>
       <p className="text-lg sm:text-xl md:text-2xl text-white text-center mb-10 max-w-3xl mx-auto">
-        Yunis çözümleri ile site yönetimini kolaylaştırın. Modern, güvenli ve
+        Aparthus çözümleri ile site yönetimini kolaylaştırın. Modern, güvenli ve
         pratik çözümlerimizle yöneticiliğin tadını çıkarın.
       </p>
 

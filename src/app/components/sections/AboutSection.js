@@ -33,7 +33,7 @@ const AboutSection = () => {
           Kurumsal
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-100 mb-6 sm:mb-8 md:mb-10 max-w-4xl mx-auto leading-relaxed animate-fade-in-up">
-          <span className="font-semibold text-white">Yunis Solutions</span>, site yönetimini daha modern, güvenli ve pratik hale getirmek için tasarlandı. Gerçek zamanlı bildirimler, QR kod erişimi ve akıllı bakım planlamasıyla artık sitenizi yönetmek çok daha kolay.
+          <span className="font-semibold text-white">Aparthus Solutions</span>, site yönetimini daha modern, güvenli ve pratik hale getirmek için tasarlandı. Gerçek zamanlı bildirimler, QR kod erişimi ve akıllı bakım planlamasıyla artık sitenizi yönetmek çok daha kolay.
         </p>
 
         {/* CTA Buttons */}

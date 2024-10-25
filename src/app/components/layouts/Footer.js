@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -7,7 +8,13 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
         {/* Brand and Description */}
         <div>
-          <h2 className="text-2xl font-bold mb-4 text-yellow-400">Yunis Solutions</h2>
+          <Image
+            src="/images/logo-dark-horizontal.png"
+            alt="Aparthus Logo"
+            width={250}
+            height={1125}
+            className="rounded-full"
+          />
           <p className="text-gray-400">
             Modern, güvenli, pratik apartman ve site yönetimi çözümleriyle hayatınızı kolaylaştırıyoruz.
           </p>
@@ -87,7 +94,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-6 text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Yunis Solutions. Tüm hakları saklıdır.
+        &copy; {new Date().getFullYear()} Aparthus Solutions. Tüm hakları saklıdır.
       </div>
     </footer>
   );

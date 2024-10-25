@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 const HeroSection = () => {
@@ -45,8 +46,17 @@ const HeroSection = () => {
       {/* Content */}
       <div className="text-center px-4 sm:px-0 relative z-10" style={{ transform: `translateY(${scrollY * 0.15}px)` }}>
         {/* Heading */}
+        <div className="flex items-center justify-center ">
+        <Image
+          src="/images/logo.png"
+          alt="Logo"
+          width={250}
+          height={125}
+          className="inline-block mb-12"
+        />
+        </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4 leading-tight">
-          <span className="text-yellow-400">Yunis Apartman ve Site Yönetim Çözümleri</span>
+          <span className="text-yellow-400">Apartman ve Site Yönetim Çözümleri</span>
           <span className="block text-white">ile Geleceğe Adım Atın</span>
         </h1>
 

@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yunis Apartman ve Site Yönetimi",
-  description: "Yunis Apartman ve Site Yönetimizini dijitale taşıyarak işlerinizi kolaylaştırır.",
+  title: "Aparthus Apartman ve Site Yönetimi",
+  description: "Aparthus Apartman ve Site Yönetimizini dijitale taşıyarak işlerinizi kolaylaştırır.",
 };
 
 export default function RootLayout({
