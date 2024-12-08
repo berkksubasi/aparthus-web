@@ -9,11 +9,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1E3A8A',
-        accent: '#10B981',
+        primary: '#1E3A8A', // Ana tema rengi
+        accent: '#10B981',  // Vurgu rengi
+        background: '#F9FAFB', // Arkaplan renkleri için ek bir renk
+        card: '#FFFFFF', // Kartlar için kullanılabilir
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'], // Varsayılan font ailesi
+      },
+      backgroundImage: {
+        'pattern': "url('/images/pattern.svg')", // Desen dosyası
+        'hero-pattern': "url('/images/hero-pattern.svg')", // Alternatif desen
+      },
+      spacing: {
+        '128': '32rem', // Özel genişlik/yükseklik değerleri
+        '144': '36rem',
+      },
+      borderRadius: {
+        'xl': '1.5rem', // Büyük yuvarlatma için
       },
     },
   },

@@ -1,41 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-html, body {
-  scroll-behavior: smooth;
+:root {
+  --background: hsl(0, 0%, 100%); /* Beyaz arka plan */
+  --foreground: hsl(0, 0%, 3.9%); /* Siyah metin */
+  --primary: hsl(47, 100%, 50%);
+  --primary-foreground: hsl(0, 0%, 98%);
 }
 
-body {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  background-color: #F3F4F6;
-}
-
-section {
-  margin: 0;
-  padding: 0;
-}
-
-section#hero {
-  background-image: url('/hero-bg.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-section#features {
-  background-image: url('/features-bg.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-section#about {
-  background-image: url('/about-bg.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-section#team {
-  background-image: url('/team-bg.jpg');
+@layer base {
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)];
+  }
 }

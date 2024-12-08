@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- Arka Plan -->
+  <rect width="200" height="200" fill="url(#backgroundGradient)" />
+  
+  <!-- Daire -->
+  <circle cx="100" cy="100" r="70" fill="url(#circleGradient)" />
+  
+  <!-- Küçük Noktalar -->
+  <circle cx="60" cy="60" r="5" fill="#FFD200" opacity="0.8" />
+  <circle cx="140" cy="140" r="3" fill="#FFD200" opacity="0.6" />
+  <circle cx="160" cy="80" r="4" fill="#FFD200" opacity="0.7" />
+  
+  <!-- Gölgeler ve Parlamalar -->
+  <circle cx="100" cy="100" r="75" fill="url(#outerGlow)" opacity="0.3" />
+  <circle cx="100" cy="100" r="50" fill="url(#innerGlow)" opacity="0.4" />
+
+  <!-- Tanımlar -->
+  <defs>
+    <!-- Arka Plan Gradyanı -->
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD200" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#FFD200" stop-opacity="0.3" />
+    </linearGradient>
+    
+    <!-- Daire Gradyanı -->
+    <radialGradient id="circleGradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFD200" />
+      <stop offset="100%" stop-color="#FFD200" stop-opacity="0.6" />
+    </radialGradient>
+
+    <!-- Dış Parlama -->
+    <radialGradient id="outerGlow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFD200" />
+      <stop offset="100%" stop-color="#FFD200" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- İç Parlama -->
+    <radialGradient id="innerGlow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFD200" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FFD200" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>
