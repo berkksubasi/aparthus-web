@@ -11,17 +11,14 @@ import WhyAparthusSection from './components/sections/WhyAparthusSection'
 
 export default function Home(): JSX.Element {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1">
-        <MainSection />
-        <FeatureSection />
-        <WhyAparthusSection />
-        <PricingSection />
-        <GetStartedSection />
-        <ContactSection />
-      </main>
-      <Footer />
-    </div>
+
+    <main className="flex-1">
+      <MainSection />
+      <FeatureSection />
+      <WhyAparthusSection />
+      <PricingSection />
+      <GetStartedSection />
+      <ContactSection />
+    </main>
   )
 }
