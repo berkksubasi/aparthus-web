@@ -16,7 +16,7 @@ export default function GetStartedSection(): JSX.Element {
         {/* CTA Butonları */}
         <div className="flex flex-col gap-4 sm:flex-row justify-center">
           <Button className="bg-[#FFD200] text-gray-900 hover:text-white hover:bg-[#FFD200]/90 px-8 py-4 text-lg rounded-md shadow-lg"
-            href="/önsatis">
+            href="/on-satis">
             Ön Satış
           </Button>
           <Button

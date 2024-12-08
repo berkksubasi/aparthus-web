@@ -47,6 +47,10 @@ export default function PreSalePage(): JSX.Element {
     },
   ];
 
+  const handlePreSaleAlert = (planName: string): void => {
+    alert(`"${planName}" için ön satış çok yakında! Lütfen takipte kalın.`);
+  };
+
   return (
     <div className="w-full py-16 md:py-24 lg:py-32 bg-gray-50 text-gray-900">
       <div className="container mx-auto px-4 md:px-6 text-center">
@@ -72,7 +76,10 @@ export default function PreSalePage(): JSX.Element {
                   </li>
                 ))}
               </ul>
-              <Button className="mt-6 px-4 py-2 bg-[#FFD200] text-gray-900 rounded-lg hover:bg-[#FFD200]/90">
+              <Button
+                className="mt-6 px-4 py-2 bg-[#FFD200] text-gray-900 rounded-lg hover:bg-[#FFD200]/90"
+                onClick={() => handlePreSaleAlert(plan.name)}
+              >
                 Satın Al
               </Button>
             </div>

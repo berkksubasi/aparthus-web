@@ -45,7 +45,7 @@ export default function Header(): JSX.Element {
           </Link>
         ))}
       </nav>
-      <Button className="hidden md:inline-flex ml-4 bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90" href="#fiyatlandırma">
+      <Button className="hidden md:inline-flex ml-4 bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90" href="/on-satis">
         Ön Satış
       </Button>
       <button className="ml-auto md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -76,7 +76,7 @@ export default function Header(): JSX.Element {
             ))}
             <Button
               className="w-full bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-              href="/önsatis"
+              href="/on-satis"
               onClick={() => setIsMenuOpen(false)}
             >
               Ön Satış
