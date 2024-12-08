@@ -1,7 +1,5 @@
 'use client'
 
-import Footer from './components/layouts/Footer'
-import Header from './components/layouts/Header'
 import ContactSection from './components/sections/ContactSection'
 import FeatureSection from './components/sections/FeatureSection'
 import GetStartedSection from './components/sections/GetStartedSection'
