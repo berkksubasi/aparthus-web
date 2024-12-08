@@ -76,7 +76,7 @@ export default function Header(): JSX.Element {
             ))}
             <Button
               className="w-full bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-              href="#fiyatlandırma"
+              href="/önsatis"
               onClick={() => setIsMenuOpen(false)}
             >
               Ön Satış
