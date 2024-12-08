@@ -52,6 +52,7 @@ export default function Footer(): JSX.Element {
               <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Hakkımızda</Link></li>
               <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Blog</Link></li>
               <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Kariyer</Link></li>
+              <li><Link href="/privacy" className="hover:text-[#FFD200] transition-colors">Gizlilik Politikası</Link></li>
             </ul>
           </div>
 
