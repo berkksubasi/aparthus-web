@@ -10,13 +10,13 @@ export default function GetStartedSection(): JSX.Element {
           Hemen Başlayın
         </h2>
         <p className="mx-auto max-w-[600px] text-gray-300 md:text-lg/relaxed lg:text-xl/relaxed mt-4 mb-8">
-          Ücretsiz deneme süreniz sizi bekliyor. Aparthus'un sunduğu avantajlardan hemen yararlanmaya başlayın.
+          Aparthus&#39;un sunduğu avantajlardan hemen yararlanmaya başlayın.
         </p>
         
         {/* CTA Butonları */}
         <div className="flex flex-col gap-4 sm:flex-row justify-center">
           <Button className="bg-[#FFD200] text-gray-900 hover:text-white hover:bg-[#FFD200]/90 px-8 py-4 text-lg rounded-md shadow-lg">
-            Ücretsiz Dene
+            Ön Satış
           </Button>
           <Button
             variant="outline"
