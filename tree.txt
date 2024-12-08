@@ -9,41 +9,36 @@
 ├── postcss.config.mjs
 ├── public
 │   └── images
-│       ├── aparthus-yönetici-kolay-yönetim.png
-│       ├── building-management.jpg
-│       ├── etkin-iletisim.png
-│       ├── futures-apartment.jpg
-│       ├── icon.png
+│       ├── icon-logo.png
 │       ├── logo-dark-horizontal.png
 │       ├── logo.png
-│       ├── team1.jpg
-│       ├── team2.jpg
-│       └── team3.jpg
+│       ├── pattern.svg
+│       └── placeholder.png
 ├── src
-│   └── app
-│       ├── components
-│       │   ├── layouts
-│       │   │   ├── Footer.js
-│       │   │   └── Navbar.js
-│       │   └── sections
-│       │       ├── AboutSection.js
-│       │       ├── ContactSection.js
-│       │       ├── FeaturesSection.js
-│       │       ├── HeroSections.js
-│       │       └── TeamSection.js
-│       ├── favicon.ico
-│       ├── fonts
-│       │   ├── GeistMonoVF.woff
-│       │   └── GeistVF.woff
-│       ├── globals.css
-│       ├── layout.tsx
-│       ├── page.tsx
-│       └── yonetici
-│           └── page.tsx
+│   ├── app
+│   │   ├── components
+│   │   │   ├── layouts
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   └── Header.tsx
+│   │   │   ├── sections
+│   │   │   │   ├── ContactSection.tsx
+│   │   │   │   ├── FeatureSection.tsx
+│   │   │   │   ├── GetStartedSection.tsx
+│   │   │   │   ├── MainSection.tsx
+│   │   │   │   ├── PricingSection.tsx
+│   │   │   │   └── WhyAparthusSection.tsx
+│   │   │   └── ui
+│   │   │       └── Button.tsx
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── lib
+│       └── util.ts
 ├── tailwind.config.js
 ├── tailwind.config.ts
 ├── tree.txt
 ├── tsconfig.json
 └── yarn.lock
 
-10 directories, 37 files
+10 directories, 32 files
