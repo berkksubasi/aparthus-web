@@ -4,6 +4,7 @@ import { useParams } from 'next/navigation';
 import React from 'react';
 import Head from 'next/head';
 import { Facebook, Twitter } from 'lucide-react';
+import Image from 'next/image';
 
 const BlogDetail = () => {
   const params = useParams();
@@ -131,10 +132,12 @@ const BlogDetail = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col items-center">
             <div className="relative w-full lg:w-3/4">
-              <img
+              <Image
                 src={post.image}
                 alt={post.title}
-                className="rounded-lg shadow-lg w-full h-auto object-cover"
+                width={800}
+                height={450}
+                className="rounded-lg shadow-lg"
               />
             </div>
             <div className="mt-6 text-center">
@@ -143,17 +146,31 @@ const BlogDetail = () => {
               <div className="flex justify-center gap-4 mt-4">
                 <button
                   className="flex items-center gap-2 px-4 py-2 text-sm text-white bg-blue-600 rounded-lg hover:bg-blue-700"
-                  onClick={() => window.open(`https://facebook.com/sharer/sharer.php?u=${window.location.href}`, '_blank')}
+                  onClick={() =>
+                    window.open(
+                      `https://facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                        window.location.href
+                      )}`,
+                      '_blank'
+                    )
+                  }
                 >
                   <Facebook className="w-5 h-5" />
-                  Facebook'ta Paylaş
+                  Facebook&apos;ta Paylaş
                 </button>
                 <button
                   className="flex items-center gap-2 px-4 py-2 text-sm text-white bg-blue-400 rounded-lg hover:bg-blue-500"
-                  onClick={() => window.open(`https://twitter.com/intent/tweet?url=${window.location.href}&text=${post.title}`, '_blank')}
+                  onClick={() =>
+                    window.open(
+                      `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                        window.location.href
+                      )}&text=${encodeURIComponent(post.title)}`,
+                      '_blank'
+                    )
+                  }
                 >
                   <Twitter className="w-5 h-5" />
-                  Twitter'da Paylaş
+                  Twitter&apos;da Paylaş
                 </button>
               </div>
             </div>

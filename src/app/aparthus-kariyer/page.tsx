@@ -11,7 +11,7 @@ export default function CareerPage() {
       location: 'Türkiye Geneli',
       type: 'Serbest Zamanlı',
       description:
-        'Aparthus’un yenilikçi apartman ve site yönetim çözümlerini tanıtmak, müşteri portföyünü genişletmek ve potansiyel müşterilerle güçlü ilişkiler kurmak için saha satış ekibimize katılacak danışmanlar arıyoruz. Esnek çalışma saatleri ile kendi zamanınızı yönetebileceğiniz bir pozisyon!',
+        'Aparthus&apos;un yenilikçi apartman ve site yönetim çözümlerini tanıtmak, müşteri portföyünü genişletmek ve potansiyel müşterilerle güçlü ilişkiler kurmak için saha satış ekibimize katılacak danışmanlar arıyoruz. Esnek çalışma saatleri ile kendi zamanınızı yönetebileceğiniz bir pozisyon!',
     }
   ];
 
@@ -51,7 +51,7 @@ export default function CareerPage() {
       <section className="bg-gray-800 py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Aparthus'ta Kariyer Yolculuğuna Başlayın
+            Aparthus&apos;ta Kariyer Yolculuğuna Başlayın
           </h2>
           <p className="text-lg text-gray-400 mb-8">
             Ekibimize katılmak ve bizimle birlikte büyümek için şimdi başvurun.

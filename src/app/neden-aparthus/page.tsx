@@ -89,7 +89,7 @@ export default function WhyAparthus() {
             Aparthus ile daha verimli bir yönetim deneyimine hazır mısınız?
           </h2>
           <p className="text-gray-400 mt-4">
-            Aparthus'u deneyimleyerek apartman yönetimini kolaylaştırın.
+            Aparthus&apos;u deneyimleyerek apartman yönetimini kolaylaştırın.
           </p>
           <Link
             href="/aparthus-iletisim"

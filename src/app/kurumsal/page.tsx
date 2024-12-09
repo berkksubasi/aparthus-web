@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaPhoneAlt, FaEnvelope, FaUsers } from 'react-icons/fa';
+import { FaEnvelope, FaUsers } from 'react-icons/fa';
 import { FaMessage } from 'react-icons/fa6';
 
 export default function CorporatePage() {
@@ -29,8 +29,8 @@ export default function CorporatePage() {
           </p>
           <Link href="/iletisim">
             <button className="mt-8 inline-flex items-center bg-[#FFD200] text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-[#FFD200]/90 transition">
-            <FaMessage className="mr-2" />
-            Bize Ulaşın
+              <FaMessage className="mr-2" />
+              Bize Ulaşın
             </button>
           </Link>
         </div>
