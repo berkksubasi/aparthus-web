@@ -39,9 +39,8 @@ export default function Footer(): JSX.Element {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Ürün</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Özellikler</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Fiyatlandırma</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Entegrasyonlar</Link></li>
+              <li><Link href="/#" className="hover:text-[#FFD200] transition-colors">Çözümler</Link></li>
+              <li><Link href="/#fiyatlandırma" className="hover:text-[#FFD200] transition-colors">Fiyatlandırma</Link></li>
             </ul>
           </div>
 
@@ -49,20 +48,22 @@ export default function Footer(): JSX.Element {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Şirket</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Hakkımızda</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Blog</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Kariyer</Link></li>
+              <li><Link href="/kurumsal" className="hover:text-[#FFD200] transition-colors">Kurumsal</Link></li>
+              <li><Link href="/blog" className="hover:text-[#FFD200] transition-colors">Blog</Link></li>
+              <li><Link href="/aparthus-kariyer" className="hover:text-[#FFD200] transition-colors">Kariyer</Link></li>
               <li><Link href="/privacy" className="hover:text-[#FFD200] transition-colors">Gizlilik Politikası</Link></li>
+              <li><Link href="/terms-of-service" className="hover:text-[#FFD200] transition-colors">Kullanım Koşulları</Link></li>
             </ul>
           </div>
 
           {/* Destek */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Destek</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Hukuki</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Yardım Merkezi</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">İletişim</Link></li>
-              <li><Link href="#" className="hover:text-[#FFD200] transition-colors">Dokümantasyon</Link></li>
+              <li><Link href="/cookie-policy" className="hover:text-[#FFD200] transition-colors">Çerez Politikası</Link></li>
+              <li><Link href="/dpa" className="hover:text-[#FFD200] transition-colors">Veri İşleme Politikası</Link></li>
+              <li><Link href="/refund-policy" className="hover:text-[#FFD200] transition-colors">İptal ve İade Politikası</Link></li>
+              <li><Link href="/legal-disclaimer" className="hover:text-[#FFD200] transition-colors">Yasal Uyarılar</Link></li>
             </ul>
           </div>
         </div>
