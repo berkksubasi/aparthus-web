@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Button } from '../ui/Button';
 import { FaGooglePlay, FaApple } from 'react-icons/fa'; // İkonlar için
 
 export default function MainSection(): JSX.Element {
