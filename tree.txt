@@ -3,19 +3,50 @@
 ├── README.md
 ├── _app.tsx
 ├── next-env.d.ts
+├── next-seo.config.js
+├── next-sitemap.config.js
 ├── next.config.mjs
 ├── package.json
 ├── postcss.config.js
 ├── postcss.config.mjs
 ├── public
-│   └── images
-│       ├── icon-logo.png
-│       ├── logo-dark-horizontal.png
-│       ├── logo.png
-│       ├── pattern.svg
-│       └── placeholder.png
+│   ├── blog
+│   │   ├── blog1.png
+│   │   ├── blog2.png
+│   │   ├── blog3.png
+│   │   ├── blog4.png
+│   │   ├── blog5.png
+│   │   └── blog6.png
+│   ├── feature
+│   │   ├── feature-1.png
+│   │   ├── feature-2.png
+│   │   └── feature-3.png
+│   ├── images
+│   │   ├── about-us.png
+│   │   ├── icon-logo.png
+│   │   ├── innovation.png
+│   │   ├── logo-dark-horizontal.png
+│   │   ├── logo.png
+│   │   ├── mission.png
+│   │   ├── pattern.svg
+│   │   ├── placeholder.png
+│   │   ├── sustainability.png
+│   │   ├── transparency.png
+│   │   └── vision.png
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── src
 │   ├── app
+│   │   ├── aparthus-iletisim
+│   │   │   └── page.tsx
+│   │   ├── aparthus-kariyer
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── blog
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
 │   │   ├── components
 │   │   │   ├── layouts
 │   │   │   │   ├── Footer.tsx
@@ -29,10 +60,28 @@
 │   │   │   │   └── WhyAparthusSection.tsx
 │   │   │   └── ui
 │   │   │       └── Button.tsx
+│   │   ├── cookie-policy
+│   │   │   └── page.tsx
+│   │   ├── dpa
+│   │   │   └── page.tsx
 │   │   ├── favicon.ico
 │   │   ├── globals.css
+│   │   ├── kurumsal
+│   │   │   └── page.tsx
 │   │   ├── layout.tsx
-│   │   └── page.tsx
+│   │   ├── legal-disclaimer
+│   │   │   └── page.tsx
+│   │   ├── neden-aparthus
+│   │   │   └── page.tsx
+│   │   ├── on-satis
+│   │   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   ├── privacy
+│   │   │   └── page.tsx
+│   │   ├── refund-policy
+│   │   │   └── page.tsx
+│   │   └── terms-of-service
+│   │       └── page.tsx
 │   └── lib
 │       └── util.ts
 ├── tailwind.config.js
@@ -41,4 +90,4 @@
 ├── tsconfig.json
 └── yarn.lock
 
-10 directories, 32 files
+26 directories, 65 files

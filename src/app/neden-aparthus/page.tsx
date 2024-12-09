@@ -3,6 +3,13 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { NextSeo } from 'next-seo';
+
+<NextSeo
+  title="Neden Aparthus?"
+  description="Aparthus, apartman ve site yönetimini kolaylaştıran modern bir platformdur. Neden bizi tercih etmelisiniz?"
+  canonical="https://aparthus.com/neden-aparthus"
+/>
 
 export default function WhyAparthus() {
   return (

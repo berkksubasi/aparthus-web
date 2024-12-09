@@ -1,6 +1,13 @@
 'use client';
 
+import { NextSeo } from 'next-seo';
 import React from 'react';
+
+<NextSeo
+  title="İletişim - Aparthus"
+  description="Aparthus ekibiyle iletişime geçin. Apartman yönetimi ile ilgili sorularınız ve talepleriniz için buradayız."
+  canonical="https://aparthus.com/aparthus-iletisim"
+/>
 
 export default function ContactPage() {
   return (

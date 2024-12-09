@@ -5,6 +5,7 @@ import React from 'react';
 import Head from 'next/head';
 import { Facebook, Twitter } from 'lucide-react';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
 
 const BlogDetail = () => {
   const params = useParams();
@@ -115,6 +116,12 @@ const BlogDetail = () => {
       </div>
     );
   }
+
+<NextSeo
+  title={`${post.title} - Aparthus Blog`}
+  description={post.description}
+  canonical={`https://aparthus.com/blog/${post.id}`}
+/>
 
   return (
     <>

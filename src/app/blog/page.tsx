@@ -2,6 +2,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
+
+<NextSeo
+  title="Aparthus Blog - Apartman Yönetim İpuçları"
+  description="Apartman ve site yönetimi hakkında pratik ipuçları, rehberler ve sektör trendlerini keşfedin."
+  canonical="https://aparthus.com/blog"
+/>
 
 const Blog = () => {
   const posts = [

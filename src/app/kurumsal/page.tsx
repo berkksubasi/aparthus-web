@@ -5,6 +5,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaEnvelope, FaUsers } from 'react-icons/fa';
 import { FaMessage } from 'react-icons/fa6';
+import { NextSeo } from 'next-seo';
+
+<NextSeo
+  title="Kurumsal - Aparthus"
+  description="Aparthus, apartman ve site yönetiminde yenilikçi çözümler sunar. Misyonumuzu ve vizyonumuzu öğrenin."
+  canonical="https://aparthus.com/kurumsal"
+/>
 
 export default function CorporatePage() {
   return (
