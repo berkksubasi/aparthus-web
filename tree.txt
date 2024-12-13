@@ -5,7 +5,8 @@
 ├── next-env.d.ts
 ├── next-seo.config.js
 ├── next-sitemap.config.js
-├── next.config.mjs
+├── next.config.js
+├── package-lock.json
 ├── package.json
 ├── postcss.config.js
 ├── postcss.config.mjs
@@ -34,7 +35,10 @@
 │   │   ├── transparency.png
 │   │   └── vision.png
 │   ├── robots.txt
+│   ├── sitemap-0.xml
 │   └── sitemap.xml
+├── secret
+│   └── service-account-key.json
 ├── src
 │   ├── app
 │   │   ├── aparthus-iletisim
@@ -42,6 +46,8 @@
 │   │   ├── aparthus-kariyer
 │   │   │   ├── [id]
 │   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── aparthus-kazanc
 │   │   │   └── page.tsx
 │   │   ├── blog
 │   │   │   ├── [id]
@@ -83,6 +89,9 @@
 │   │   └── terms-of-service
 │   │       └── page.tsx
 │   └── lib
+│       ├── api
+│       │   └── submitForm.ts
+│       ├── sheet.ts
 │       └── util.ts
 ├── tailwind.config.js
 ├── tailwind.config.ts
@@ -90,4 +99,4 @@
 ├── tsconfig.json
 └── yarn.lock
 
-26 directories, 65 files
+29 directories, 71 files
