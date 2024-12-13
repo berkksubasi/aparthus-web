@@ -3,18 +3,41 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function CareerPage() {
-  const positions = [
-    {
-      id: 'saha-satis-danismani',
-      title: 'Saha Satış Danışmanı',
-      location: 'Türkiye Geneli',
-      type: 'Serbest Zamanlı',
-      description:
-        'Aparthus&apos;un yenilikçi apartman ve site yönetim çözümlerini tanıtmak, müşteri portföyünü genişletmek ve potansiyel müşterilerle güçlü ilişkiler kurmak için saha satış ekibimize katılacak danışmanlar arıyoruz. Esnek çalışma saatleri ile kendi zamanınızı yönetebileceğiniz bir pozisyon!',
-    }
-  ];
+const positions = [
+  {
+    id: 'saha-satis-danismani',
+    title: 'Saha Satış Danışmanı',
+    location: 'Türkiye Geneli',
+    type: 'Serbest Zamanlı',
+    description:
+      'Üniversite öğrencileri ve esnek çalışanlar için prime dayalı, yüksek kazanç sağlayabileceğiniz bir iş fırsatı! Yeni nesil site yönetim uygulamamız Aparthus için sahada aktif çalışarak yüksek gelir elde etmeye hazır mısınız? Maaşlı değil, performansa dayalı gelir modeliyle kazancınızı kendi satış başarılarınıza göre belirleyebilirsiniz!',
+    responsibilities: [
+      'Aparthus uygulamasını tanıtmak ve apartman/sitelerle görüşmeler yapmak.',
+      'Yeni müşteriler kazanmak ve satış sürecini yönetmek.',
+      'İletişim becerilerini kullanarak uzun vadeli iş bağlantıları kurmak.',
+    ],
+    qualifications: [
+      'Üniversite öğrencisi veya yeni mezun.',
+      'İnsan ilişkilerinde başarılı, çözüm odaklı.',
+      'Hedef odaklı çalışmayı seven ve sahada aktif görev alabilecek.',
+    ],
+    benefits: [
+      'Esnek çalışma saatleri ile okul ve iş dengesini kolayca sağlama.',
+      'Kazancını kendi performansınla belirleme fırsatı.',
+      'Performansa göre artan yüksek prim oranları: %20-%25 arası prim oranları.',
+      'Yaptığınız her satıştan 6 ay boyunca düzenli prim kazancı.',
+      'Başarı odaklı kariyer ilerleme ve kişisel gelişim fırsatları.',
+    ],
+    commissionSystem: [
+      '1.000 TL’lik satışlar için %20 prim.',
+      '3.000 TL’lik paket satışlar için %22 prim.',
+      '6.000 TL ve üzeri satışlar için %25 prim.',
+      'Satışlar yıllık sözleşme içermektedir ve her satıştan 6 ay boyunca düzenli prim kazancı elde edersiniz!',
+    ],
+  },
+];
 
+export default function CareerPage() {
   return (
     <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
@@ -34,7 +57,9 @@ export default function CareerPage() {
           {positions.map((position) => (
             <div key={position.id} className="bg-white shadow-md rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900">{position.title}</h3>
-              <p className="text-sm text-gray-600 mt-2">{position.location} • {position.type}</p>
+              <p className="text-sm text-gray-600 mt-2">
+                {position.location} • {position.type}
+              </p>
               <p className="text-gray-700 mt-4">{position.description}</p>
               <Link
                 href={`/aparthus-kariyer/${position.id}`}
@@ -57,10 +82,10 @@ export default function CareerPage() {
             Ekibimize katılmak ve bizimle birlikte büyümek için şimdi başvurun.
           </p>
           <Link
-            href="/aparthus-iletisim"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf3pBR_fICBQRQj_alLcsItzqLVaKH79ZwlLJCCFC29xsBm3w/viewform?usp=dialog"
             className="inline-block bg-[#FFD200] text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-[#FFD200]/90 transition"
           >
-            İletişime Geçin
+            Başvuru Yap
           </Link>
         </div>
       </section>
