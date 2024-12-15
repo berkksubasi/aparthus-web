@@ -58,12 +58,12 @@ export default function Header(): JSX.Element {
         ))}
       </nav>
 
-      {/* "Ön Satış" Button */}
+      {/* "Platform" Button */}
       <Button
         className="hidden md:inline-flex ml-4 bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-        href="/on-satis"
+        href="https://app.aparthus.com"
       >
-        Ön Satış
+        Platform
       </Button>
 
       {/* Mobile Menu Toggle */}
