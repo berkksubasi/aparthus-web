@@ -18,8 +18,6 @@ const contracts = [
 ];
 
 export default function ContractsPage() {
-    const [selectedContract, setSelectedContract] = useState(null);
-
     return (
         <div className="bg-gray-50 min-h-full py-16">
             <div className="container mx-auto px-4 my-20">
