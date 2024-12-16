@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 
 const contracts = [
     {
@@ -41,7 +41,7 @@ export default function ContractsPage() {
                                 rel="noopener noreferrer"
                                 className="bg-[#FFD200] text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-[#FFD200]/90 transition"
                             >
-                                PDF'i Görüntüle
+                                PDF&apos;i Görüntüle
                             </a>
                         </div>
                     ))}
