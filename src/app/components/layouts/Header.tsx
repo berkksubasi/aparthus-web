@@ -95,10 +95,10 @@ export default function Header(): JSX.Element {
             ))}
             <Button
               className="w-full bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-              href="/on-satis"
+              href="https://app.aparthus.com"
               onClick={() => setIsMenuOpen(false)}
             >
-              Ön Satış
+              Platform
             </Button>
           </nav>
         </div>
