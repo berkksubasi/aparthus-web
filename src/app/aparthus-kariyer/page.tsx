@@ -72,6 +72,22 @@ export default function CareerPage() {
         </div>
       </main>
 
+      {/* Contracts Section */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Sözleşmeler</h2>
+          <p className="text-lg text-gray-600 mb-8">
+            Aparthus ile yapılan satış sözleşmeleri, adil ve şeffaf bir kazanç modeli sunar. Sözleşme detayları ve kurallarını incelemek için aşağıdaki bağlantıya tıklayın.
+          </p>
+          <Link
+            href="/sozlesmeler"
+            className="inline-block bg-[#FFD200] text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-[#FFD200]/90 transition"
+          >
+            Sözleşme Detaylarını Gör
+          </Link>
+        </div>
+      </section>
+
       {/* Call-to-Action */}
       <section className="bg-gray-800 py-16">
         <div className="container mx-auto text-center">
