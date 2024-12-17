@@ -26,7 +26,7 @@ export default function MainSection(): JSX.Element {
                 <span>Google Play</span>
               </a>
               <a
-                href="https://apps.apple.com/us/app/aparthus/id123456789" // App Store URL
+                href="https://apps.apple.com/us/app/aparthus-apartman-y%C3%B6netimi/id6739287819" // App Store URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-lg hover:bg-black hover:text-white transition"
