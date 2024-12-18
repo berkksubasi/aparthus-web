@@ -61,7 +61,7 @@ export default function Header(): JSX.Element {
       {/* "Platform" Button */}
       <Button
         className="hidden md:inline-flex ml-4 bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-        href="https://app.aparthus.com"
+        href="https://app.aparthus.com/login"
       >
         Platform
       </Button>
@@ -95,7 +95,7 @@ export default function Header(): JSX.Element {
             ))}
             <Button
               className="w-full bg-[#FFD200] text-gray-900 hover:bg-[#FFD200]/90"
-              href="https://app.aparthus.com"
+              href="https://app.aparthus.com/login"
               onClick={() => setIsMenuOpen(false)}
             >
               Platform
