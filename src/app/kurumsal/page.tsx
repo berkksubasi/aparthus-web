@@ -8,9 +8,22 @@ import { FaMessage } from 'react-icons/fa6';
 import { NextSeo } from 'next-seo';
 
 <NextSeo
-  title="Kurumsal - Aparthus"
-  description="Aparthus, apartman ve site yönetiminde yenilikçi çözümler sunar. Misyonumuzu ve vizyonumuzu öğrenin."
+  title="Kurumsal - Aparthus | Apartman ve Site Yönetiminde Yenilikçi Çözümler"
+  description="Aparthus, apartman ve site yönetiminde lider bir dijital platformdur. Misyonumuz, şeffaflık ve modern çözümlerle bina yönetim süreçlerini kolaylaştırmaktır."
   canonical="https://aparthus.com/kurumsal"
+  openGraph={{
+    url: 'https://aparthus.com/kurumsal',
+    title: 'Kurumsal - Aparthus | Apartman ve Site Yönetiminde Yenilikçi Çözümler',
+    description: 'Aparthus, apartman ve site yönetiminde lider bir dijital platformdur. Misyonumuz, şeffaflık ve modern çözümlerle bina yönetim süreçlerini kolaylaştırmaktır.',
+    images: [
+      {
+        url: 'https://aparthus.com/images/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Aparthus Kurumsal',
+      },
+    ],
+  }}
 />
 
 export default function CorporatePage() {

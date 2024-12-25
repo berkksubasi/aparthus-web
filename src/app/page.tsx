@@ -16,7 +16,6 @@ import WhyAparthusSection from './components/sections/WhyAparthusSection'
 
 export default function Home(): JSX.Element {
   return (
-
     <main className="flex-1">
       <MainSection />
       <FeatureSection />

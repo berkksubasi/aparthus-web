@@ -7,6 +7,25 @@ import { Facebook, Twitter } from 'lucide-react';
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
 
+<NextSeo
+  title="Aparthus Blog | Apartman Yönetimi İpuçları ve Rehberler"
+  description="Apartman ve site yönetiminde işinizi kolaylaştıracak pratik ipuçları, kapsamlı rehberler ve sektör trendlerini Aparthus Blog'da keşfedin."
+  canonical="https://aparthus.com/blog"
+  openGraph={{
+    url: 'https://aparthus.com/blog',
+    title: 'Aparthus Blog | Apartman Yönetimi İpuçları ve Rehberler',
+    description: 'Apartman ve site yönetiminde işinizi kolaylaştıracak pratik ipuçları, kapsamlı rehberler ve sektör trendlerini Aparthus Blog\'da keşfedin.',
+    images: [
+      {
+        url: 'https://aparthus.com/images/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Aparthus Blog',
+      },
+    ],
+    site_name: 'Aparthus Blog',
+  }}
+/>
 const BlogDetail = () => {
   const params = useParams();
   const { id } = params;
